@@ -1,0 +1,57 @@
+.minting {
+  width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.minting-left h1 {
+  font-size: 85px;
+  color: #a210f2;
+}
+.minting-left P {
+  color: white;
+  font-size: 24px;
+}
+.minting-left span {
+  font-size: 24px;
+  display: block;
+  color: white;
+}
+.minting-left span img {
+  margin-right: 10px;
+}
+.minting-left {
+  width: 616px;
+  text-align: left;
+}
+@media screen and (max-width: 1200px) {
+  .minting {
+    width: 950px;
+  }
+}
+@media screen and (max-width: 990px) {
+  .minting {
+    align-items: flex-end;
+    width: 750px;
+  }
+
+  .minting > img {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .minting {
+    align-items: center;
+    width: 90%;
+    flex-direction: column;
+  }
+  .minting > img {
+    width: 90%;
+    margin-top: 30px;
+    height: 90%;
+  }
+  .minting-left {
+    width: 90%;
+  }
+}

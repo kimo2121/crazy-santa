@@ -1,24 +1,32 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import Navbar from "./components/Navbar/Navbar";
+import Welcome from "./components/Welcome/Welcome";
+import CrazySanta from "./components/CrazySanta/CrazySanta";
+import Minting from "./components/Minting/Minting";
+import Team from "./components/Team/Team";
+import Footer from "./components/Footer/Footer";
+import Roadmap from "./components/Roadmap/Roadmap";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      <Navbar />
+      <Welcome />
+      <CrazySanta />
+      <Roadmap />
+      <Minting />
+      <Team />
+      <div className="commounity">
+        <h3>JOIN THE COMMUNITY</h3>
         <p>
-          Edit <code>src/App.tsx</code> and save to reload.
+          Have any questions about the project? Join the discord for more
+          information.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <button className="join">Join the CRAZYSANT Discord</button>
+      </div>
+      <Footer />
     </div>
   );
 }

@@ -1,0 +1,64 @@
+.crazy-santa {
+  width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 100px 0;
+}
+.crazy-right h1 {
+  font-size: 60px;
+  margin: 0;
+  color: white;
+}
+.crazy-right h1 span {
+  color: #76fbd2;
+}
+.crazy-right {
+  width: 592px;
+  text-align: left;
+  color: white;
+}
+.crazy-right p {
+  font-size: 18px;
+  margin: 30px 0;
+}
+@media screen and (max-width: 1200px) {
+  .crazy-santa {
+    width: 950px;
+  }
+  .crazy-santa img {
+    width: 390px;
+    height: 390px;
+  }
+  .crazy-right {
+    width: 492px;
+  }
+}
+@media screen and (max-width: 990px) {
+  .crazy-santa {
+    width: 750px;
+  }
+  .crazy-santa img {
+    width: 300px;
+    height: 300px;
+  }
+  .crazy-right {
+    width: 402px;
+  }
+}
+@media screen and (max-width: 990px) {
+  .crazy-santa {
+    align-items: center;
+    width: 90%;
+    flex-direction: column;
+  }
+  .crazy-right {
+    margin-top: 30px;
+    width: 90%;
+  }
+  .crazy-santa img {
+    width: 90%;
+    height: 90%;
+  }
+}

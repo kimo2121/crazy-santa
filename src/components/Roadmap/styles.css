@@ -1,0 +1,36 @@
+.roadmap {
+  /* background-image: url(/src/assets/roadmap.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1245px; */
+}
+.roadmap h1 {
+  color: #2d005d;
+  font-size: 85px;
+  position: relative;
+  top: 150px;
+  font-weight: normal;
+  margin: 0;
+}
+.roadmap img {
+  object-fit: contain;
+  height: 100%;
+  width: 100%;
+}
+@media screen and (max-width: 1300px) {
+}
+@media screen and (max-width: 768px) {
+  .roadmap h1 {
+    color: #2d005d;
+    top: 100px;
+    font-size: 46px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .roadmap h1 {
+    color: #2d005d;
+    top: 60px;
+    font-size: 32px !important;
+  }
+}

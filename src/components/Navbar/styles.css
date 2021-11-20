@@ -1,0 +1,84 @@
+.navbar {
+  display: flex;
+  width: 1140px;
+  height: 165px;
+  background-color: transparent;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar > img {
+  height: 168px;
+  width: 168px;
+}
+.nav-links {
+  display: flex;
+  align-content: center;
+}
+.connect-wallet {
+  font-size: 18px;
+  background-color: transparent;
+  color: #76fbd2;
+  border: none;
+  outline: none;
+  margin-right: 30px;
+}
+.close-icon {
+  fill: white;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 30px;
+  height: 30px;
+}
+.menu-icon {
+  display: none;
+  color: white;
+  margin-right: 20px;
+  width: 30px;
+  height: 30px;
+}
+.slide-menu {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  position: fixed;
+  z-index: 10000;
+  justify-self: center;
+  padding-top: 70px;
+  right: -110%;
+  width: 330px;
+  transition: all 0.5s;
+  background-color: black;
+  top: 0;
+  height: 100%;
+}
+.slide-menu.active {
+  right: 0;
+}
+.slide-menu a {
+  margin: 7px 0;
+  color: white;
+  font-weight: 500;
+}
+@media screen and (max-width: 1200px) {
+  .navbar {
+    width: 950px;
+  }
+}
+@media screen and (max-width: 990px) {
+  .navbar {
+    width: 750px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .navbar {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .navbar > img {
+    width: 100px;
+    height: 100px;
+  }
+}
