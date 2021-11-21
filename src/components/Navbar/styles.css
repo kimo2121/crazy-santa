@@ -29,6 +29,7 @@
 }
 .connect-wallet {
   font-size: 18px;
+  cursor: pointer;
   background-color: transparent;
   /* color: #76fbd2; */
   color: white;
