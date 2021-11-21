@@ -15,12 +15,7 @@ const Navbar = () => {
         <img src={logo} alt="" />
         <div className="nav-links">
           <button className="connect-wallet">CONNECT WALLET</button>
-          <img
-            onClick={() => setstate(true)}
-            // className="menu-icon"
-            src={menu}
-            alt=""
-          />
+          <img onClick={() => setstate(true)} src={menu} alt="" />
         </div>
         <div className={state ? "slide-menu active" : "slide-menu"}>
           <Close className="close-icon" onClick={() => setstate(false)} />
