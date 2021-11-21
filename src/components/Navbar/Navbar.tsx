@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./styles.css";
 import logo from "../../assets/logo.png";
 import menu from "../../assets/menu.png";
-import discord from "../../assets/discord-icon.png";
+import ftr_discord from "../../assets/ftr_discord.png";
 import { Link } from "react-scroll";
 import { ReactComponent as Close } from "../../assets/close.svg";
 const Navbar = () => {
@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <div className="nav-container">
       <div className="navbar">
-        <img className="discord" src={discord} alt="" />
+        <img className="discord" src={ftr_discord} alt="" />
         <img src={logo} alt="" />
         <div className="nav-links">
           <button className="connect-wallet">CONNECT WALLET</button>
