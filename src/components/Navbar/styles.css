@@ -16,8 +16,8 @@
   justify-content: space-between;
 }
 .navbar > img {
-  height: 113px;
-  width: 113px;
+  height: 100px;
+  width: 100px;
 }
 .discord {
   width: 50px !important;
