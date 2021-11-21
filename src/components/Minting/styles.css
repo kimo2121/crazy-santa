@@ -27,15 +27,10 @@
 }
 @media screen and (max-width: 1200px) {
   .minting {
-    width: 950px;
+    width: 80%;
   }
 }
 @media screen and (max-width: 990px) {
-  .minting {
-    align-items: flex-end;
-    width: 750px;
-  }
-
   .minting > img {
     width: 300px;
   }
@@ -43,7 +38,7 @@
 @media screen and (max-width: 768px) {
   .minting {
     align-items: center;
-    width: 90%;
+    width: 100%;
     flex-direction: column;
   }
   .minting > img {

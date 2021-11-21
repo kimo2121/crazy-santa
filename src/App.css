@@ -8,6 +8,8 @@
   align-items: center;
   justify-content: center;
   height: 300px;
+  width: 1170px;
+  margin: 0 auto;
   background-color: #a210f2;
 }
 .commounity p {
@@ -28,7 +30,16 @@
   height: 60px;
   border-radius: 10px;
 }
-
+@media screen and (max-width: 1200px) {
+  .commounity {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .commounity {
+    width: 100%;
+  }
+}
 @media screen and (max-width: 576px) {
   .App h1 {
     font-size: 42px !important;

@@ -1,0 +1,29 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  width: 1170px;
+  background-color: #2d005d;
+  height: 240px;
+  padding: 50px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  font-size: 20px;
+  color: white;
+}
+.footer img {
+  width: 40px;
+  margin: 5px;
+  height: 35px;
+}
+@media screen and (max-width: 1200px) {
+  .footer {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-around;
+  }
+}

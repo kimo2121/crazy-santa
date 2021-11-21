@@ -1,15 +1,27 @@
+.nav-container {
+  background-color: #2d005d;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  display: flex;
+  height: 113px;
+}
+
 .navbar {
   display: flex;
-  width: 1140px;
-  height: 165px;
-  background-color: transparent;
+  width: 1170px;
   margin: 0 auto;
+  padding: 0 40px;
   align-items: center;
   justify-content: space-between;
 }
 .navbar > img {
-  height: 168px;
-  width: 168px;
+  height: 113px;
+  width: 113px;
+}
+.discord {
+  width: 50px !important;
+  height: 40px !important;
 }
 .nav-links {
   display: flex;
@@ -49,7 +61,8 @@
   right: -110%;
   width: 330px;
   transition: all 0.5s;
-  background-color: black;
+  background-color: #2d005d;
+
   top: 0;
   height: 100%;
 }
@@ -63,7 +76,12 @@
 }
 @media screen and (max-width: 1200px) {
   .navbar {
-    width: 950px;
+    width: 100%;
+  }
+  .nav-container {
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
   }
 }
 @media screen and (max-width: 990px) {
@@ -73,12 +91,33 @@
 }
 @media screen and (max-width: 768px) {
   .navbar {
-    width: 90%;
+    width: 100%;
+  }
+  .discord {
+    width: 30px !important;
+    height: 20px !important;
+  }
+  .connect-wallet {
+    font-size: 14px;
   }
 }
 @media screen and (max-width: 576px) {
   .navbar > img {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
+  }
+  .discord {
+    margin-right: 10px;
+  }
+  .connect-wallet {
+    margin-right: 10px;
+  }
+
+  .navbar {
+    padding: 0 10px;
+  }
+  .nav-container {
+    width: 100%;
+    margin: 0 auto;
   }
 }

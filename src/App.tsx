@@ -6,7 +6,7 @@ import Welcome from "./components/Welcome/Welcome";
 import CrazySanta from "./components/CrazySanta/CrazySanta";
 import Minting from "./components/Minting/Minting";
 import Team from "./components/Team/Team";
-import Footer from "./components/Footer/Footer";
+import Footer from "./components/Footer2/Footer";
 import Roadmap from "./components/Roadmap/Roadmap";
 
 function App() {
@@ -14,8 +14,8 @@ function App() {
     <div className="App">
       <Navbar />
       <Welcome />
-      <CrazySanta />
       <Roadmap />
+      <CrazySanta />
       <Minting />
       <Team />
       <div className="commounity">
