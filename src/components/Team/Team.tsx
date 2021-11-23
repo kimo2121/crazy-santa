@@ -8,21 +8,21 @@ const Team = () => {
     <div id="Team" className="team">
       <div className="member">
         <img src={member1} alt="" />
-        <h2>JOHN</h2>
+        <h2>ADAM</h2>
         <p>Founder</p>
-        <span>Ilustrator and 3D artist extraordinaire</span>
+        <span>Founder and business strategist</span>
       </div>
       <div className="member">
         <img src={member2} alt="" />
-        <h2>smith</h2>
+        <h2>AYAAN</h2>
         <p>Founder</p>
-        <span>Brand and product builder</span>
+        <span>Illustrator and design specialist</span>
       </div>
       <div className="member">
         <img src={member3} alt="" />
-        <h2>stephen</h2>
+        <h2>MO</h2>
         <p>CEO</p>
-        <span>Business strategist and financial planner</span>
+        <span>Social Media and merchandise</span>
       </div>
     </div>
   );

@@ -29,13 +29,14 @@
   }
   .crazy-santa img {
     width: 390px;
+    margin-right: 30px;
     height: 390px;
   }
   .crazy-right {
     width: 492px;
   }
 }
-@media screen and (max-width: 990px) {
+/* @media screen and (max-width: 1200px) {
   .crazy-santa img {
     width: 300px;
     height: 300px;
@@ -43,7 +44,7 @@
   .crazy-right {
     width: 402px;
   }
-}
+} */
 @media screen and (max-width: 990px) {
   .crazy-santa {
     align-items: center;
@@ -54,6 +55,7 @@
     width: 90%;
   }
   .crazy-santa img {
+    margin-right: 0px;
     width: 90%;
     height: 90%;
   }

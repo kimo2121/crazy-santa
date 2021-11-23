@@ -8,13 +8,15 @@ const Welcome = () => {
       <div className="welcome-left">
         <p>WELCOME TO THE</p>
         <h1>
-          crazy
+          CRAZY
           <br />
-          santa nft
+          SANTA NFT
         </h1>
         <span>
-          We’re a collection of 10,000 almost truly wild chameleons, evolved out
-          of 220+ unique assets.
+          We’re a collection of 10,000 truly crazy santas, each one has
+          attributes from over 20+ traits.
+          <br />
+          Some will have unique attributes later designed for special rarity.
         </span>
         <button className="mint-nft">MINT YOUR NFT</button>
       </div>

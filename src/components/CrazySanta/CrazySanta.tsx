@@ -13,17 +13,27 @@ const CrazySanta = () => {
           <span> NFT.</span>
         </h1>
         <p>
-          Crazy Santa is a collection of 10,000 algorithmically generated pieces
-          of art with references from hentai, anime, games, and movies.
+          CRAZY SANTA is the most hottest NFT. <br /> Crazy Santa is a
+          collection of 10,000 algorithmically generated pieces of art with
+          references from hentai, anime, games, and movies.
         </p>
         <p>
-          The collection focuses on high-end sexy stuff and iconic gaming
-          reference. The collection will be unique and will be discontinued.
+          The collection focuses on giving the Christmas spirit going with a
+          touch of craziness, which the team believes is essencial for a
+          balanced experience
         </p>
-        <p>The Solagirls team will release an hentai and manga of Solagirls.</p>
         <p>
-          All the girls will be gathered in a series where each NFT will allow
-          you to access the point of view of the character you own.
+          The Crazy Santa team will release merchandise and also gifts and
+          rewards for top holder.
+        </p>
+        <p>
+          The team is currently working on 3D designs for the Santa’s to be used
+          in the Metaverse in a future nearby.
+        </p>
+        <p>
+          Also, and most importantly, 10% of all profits made by this project
+          are going to revert to a charity which will be decided by the founders
+          and top holders together.
         </p>
       </div>
     </div>
