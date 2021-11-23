@@ -34,6 +34,9 @@
   .minting > img {
     width: 300px;
   }
+  .minting-left {
+    margin-bottom: 50px;
+  }
 }
 @media screen and (max-width: 768px) {
   .minting {

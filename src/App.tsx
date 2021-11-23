@@ -8,13 +8,14 @@ import Minting from "./components/Minting/Minting";
 import Team from "./components/Team/Team";
 import Footer from "./components/Footer2/Footer";
 import Roadmap from "./components/Roadmap/Roadmap";
-
+import RoadmapMob from "./components/Roadmap/RoadmapMob";
 function App() {
   return (
     <div className="App">
       <Navbar />
       <Welcome />
       <Roadmap />
+      <RoadmapMob />
       <CrazySanta />
       <Minting />
       <Team />

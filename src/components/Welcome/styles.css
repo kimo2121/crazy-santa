@@ -57,6 +57,12 @@
   .welcome img {
     width: 300px;
   }
+  .welcome {
+    align-items: flex-end;
+  }
+  .mint-nft {
+    margin-bottom: 20px;
+  }
 }
 @media screen and (max-width: 768px) {
   .welcome {
